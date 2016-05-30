@@ -4,3 +4,9 @@ What happens when you initialize a repository? Why do you need to do it?
 - master branch is created and becomes active
 - no files are commited by default
 - files in current directory can be seen as untracked using git status command
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- staging are is sort of a first buffer for changes done in working directory
+- it allows to commit only part of the changes currently done
+- working directory contains all the files and all the changes done on them, staging are holds only changes
+  that will be (should be) commited with next commit command
