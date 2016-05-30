@@ -10,3 +10,7 @@ How is the staging area different from the working directory and the repository?
 - it allows to commit only part of the changes currently done
 - working directory contains all the files and all the changes done on them, staging are holds only changes
   that will be (should be) commited with next commit command
+
+How can you use the staging area to make sure you have one commit per logical change?
+- staging are makes it possible to commit just portion of the files that have any change (in working directory)
+  and thus allows us to pick only changes related to one logical block
