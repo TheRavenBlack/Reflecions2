@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+- git creates empty repository
+- creates its internal .git directory that contains repository metadata
+- master branch is created and becomes active
+- no files are commited by default
+- files in current directory can be seen as untracked using git status command
