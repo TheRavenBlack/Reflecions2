@@ -14,3 +14,22 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 - staging are makes it possible to commit just portion of the files that have any change (in working directory)
   and thus allows us to pick only changes related to one logical block
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- when trying some testing version that might not make it to the master branch
+- when testing some new features or ideas on a project that can take some time - this will make the project unstable
+  and not suitable for release and at the same time keeping stable master branch until the new feature version is ready
+  at which point both versions can be merged
+
+How do the diagrams help you visualize the branch structure?
+- is shows what are common base levels of different branches, aproximate "distance" for respective branches
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- the merge results in a new commit that contains changes from both branches
+- because it is a commit and has two parents
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- automatic merge is well automatic. If everything goes ok it will merge changes without interaction and stops
+  on conflicts that cannot be easysily resolved. It saves a lot of time and possibly errors while doing lot 
+  of manual merging
+- it can't handle complex conflicts
