@@ -19,3 +19,8 @@ Describe the differences between forks, clones, and branches. When would you use
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 - we know what changes have been done, can check them against our current version and merge what and if something needs it..
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+- I would be using some different repo system. It would be definitely more difficult
+- Perhaps easier would be the fact that it would not be neccessary to learn the git control
+- harder will be basically everything else - sharing, mergin, tracking changes, etc..
